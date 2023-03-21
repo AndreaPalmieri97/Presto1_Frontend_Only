@@ -1,0 +1,14 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.first-img {
+    background-image: url('./media/sfondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-logo {
+    height: 45px;
+    border-radius: 20px;
+}
