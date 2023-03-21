@@ -1,7 +1,12 @@
 * {
     font-family: 'Oswald', sans-serif;
 }
-
+/* palette colori */
+:root {--cosmos-red: rgba(217, 28, 72);
+--white-smoke: rgba(246, 245, 244, 1);
+--drab-dark-brown: rgba(39, 37, 2, 1);
+}
+/* imagine header background */
 .first-img {
     background-image: url('./media/sfondo.jpg');
     background-repeat: no-repeat;
@@ -12,3 +17,25 @@
     height: 45px;
     border-radius: 20px;
 }
+/* Cambio Font link navbar */
+.font-link:hover {
+    color: var(--cosmos-red) !important; 
+    /* font-size: xx-large !important; */
+}
+.box-title {
+    position: relative;
+    
+}
+.font-title {
+    font-size: 5rem;
+    position: absolute;
+    bottom: 500px;
+}
+
+.button-album {
+    display: inline-block;
+    padding: 15px;
+    width: 300px;
+}
+
+
