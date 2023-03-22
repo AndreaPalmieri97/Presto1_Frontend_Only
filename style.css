@@ -8,34 +8,25 @@
 }
 /* imagine header background */
 .first-img {
-    background-image: url('./media/sfondo.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0)), url('./media/sfondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img-logo {
-    height: 45px;
-    border-radius: 20px;
+    height: 60px;
+    border-radius: 30px;
 }
+
 /* Cambio Font link navbar */
 .font-link:hover {
     color: var(--cosmos-red) !important; 
     /* font-size: xx-large !important; */
 }
-.box-title {
-    position: relative;
-    
+.font-link-fb:hover {
+    color: rgb(55, 55, 197) !important;
 }
-.font-title {
-    font-size: 5rem;
-    position: absolute;
-    bottom: 500px;
+.font-link-tw:hover {
+    color: rgb(24, 167, 211) !important;
 }
-
-.button-album {
-    display: inline-block;
-    padding: 15px;
-    width: 300px;
-}
-
 
