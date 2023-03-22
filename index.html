@@ -14,75 +14,131 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rajdhani&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <!-- My style CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Inizio navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="img-logo" src="./media/logo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white font-link mx-2 fs-4" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn text-white dropdown-toggle font-link mx-2 fs-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white font-link mx-2 fs-4" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white font-link mx-2 fs-4" aria-current="page" href="#">Contacts</a>
+                    </li>
+                </ul>
+                <!-- Icone social -->
+                <a href=""><i class="fa-brands fa-facebook me-4 font-link text-white fs-4"></i></a>
+                <a href=""><i class="fa-brands fa-twitter  me-4 font-link text-white fs-4"></i></a>
+                <a href=""><i class="fa-brands fa-instagram  me-4 font-link text-white fs-4"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Fine navbar -->
     
     <!-- Inizio header -->
     <header class="first-img vh-100">
-
-        <!-- Inizio navbar -->
-        <nav class="navbar navbar-expand-lg">
-            
-            <div class="container">
-                <a class="navbar-brand" href="#"><img class="img-logo" src="./media/logo.jpg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white font-link fs-4" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown">
-                                <button class="btn text-white dropdown-toggle font-link fs-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Shop
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white font-link fs-4" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-white font-link fs-4" aria-current="page" href="#">Contacts</a>
-                        </li>
-                    </ul>
-                    <!-- Icone social -->
-                    <a href=""><i class="fa-brands fa-facebook text-white me-3 font-link-fb fs-4"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter text-white me-3 font-link-tw fs-4"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram text-white me-3 font-link fs-4"></i></a>
+        <div class="cotainer h-75">
+            <div class="row h-100 align-items-center text-center box-title mx-0">
+                <div class="col ">
+                    <h1 class="text-white font-title">
+                        Presto Music House
+                    </h1>
+                    
+                    <span>
+                        <button class="btn btn-outline-light button-album fs-5 my-5">
+                            Listen Albums
+                        </button>
+                    </span>
                 </div>
             </div>
-        </nav>
-        <!-- Fine navbar -->
-
-        <!-- Sezione titolo principale e bottone -->
-        <div class="container h-75">
-            <div class="row h-100 align-items-center text-center">
-                <div class="col">
-                    <h1 class="text-white fw-bold display-5">Presto Music House</h1>
-                    <button class="btn btn-outline-light w-25">Listen ours Albums</button>
-                </div>     
-            </div>
         </div>
-  
     </header>
     <!-- Fine header -->
-
-    <!-- Seconda navbar -->
-    <div class="wrapper sticky-top">   
+    
+    
+    <!-- Main section -->
+    <!-- Primo articolo -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-6 my-5">
+                <img class="rounded w-75" src="./piano.jpg" alt="">
+            </div>
+            <div class="col-6 my-5 d-flex justify-content-center flex-column ">
+                <h1 class="text-center">Pop music</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores inventore velit quasi laboriosam dicta quos unde repellat ullam optio nemo, veritatis quis modi consequatur aperiam cum, eos culpa eligendi. Ducimus.</p>
+                <div class="d-flex justify-content-center ">
+                    <button class="btn btn-dark w-25">Vai alla sezione</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div style="height: 2000px;"></div>
+    <!-- Secondo articolo -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-6 my-5 d-flex justify-content-center flex-column">
+                <h1 class="text-center">Jazz music</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores inventore velit quasi laboriosam dicta quos unde repellat ullam optio nemo, veritatis quis modi consequatur aperiam cum, eos culpa eligendi. Ducimus.</p>
+                <div class="d-flex justify-content-center ">
+                 <button class="btn btn-dark w-25">Vai alla sezione</button>
+                </div>
+            </div>
+            <div class="col-6 my-5  d-flex justify-content-center">
+                <img class="rounded w-75" src="./sax.jpg" alt="">
+            </div>
+           
+        </div>
+       
+    </div>
 
-
+    <!-- Terzo articolo -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-6 my-5">
+                <img class="rounded w-75" src="./batteria.jpg" alt="">
+            </div>
+            <div class="col-6 my-5 d-flex justify-content-center flex-column ">
+                <h1 class="text-center">Rock music</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores inventore velit quasi laboriosam dicta quos unde repellat ullam optio nemo, veritatis quis modi consequatur aperiam cum, eos culpa eligendi. Ducimus.</p>
+                <div class="d-flex justify-content-center ">
+                    <button class="btn btn-dark w-25">Vai alla sezione</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
