@@ -42,8 +42,12 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: bold;
-};
-
+}
+/* palette colori sezioni */
+.cristore {
+    color: var(--white-smoke);
+    background-color: var(--drab-dark-brown);
+}
 
 
 
