@@ -2,9 +2,9 @@
     font-family: 'Oswald', sans-serif;
 }
 /* palette colori  */
-:root {--cosmos-red: rgba(217, 28, 72);
-    --white-smoke: rgb(126, 64, 3);
-    --drab-dark-brown: rgba(39, 37, 2, 1);
+:root {--moss-green: rgba(127, 140, 84, 1);
+       --white-smoke: rgba(246, 245, 244, 1);
+       --caf-noir: rgba(73, 47, 9, 1);
 }
 
 /* / Navbar color / */
@@ -45,9 +45,8 @@
 }
 /* palette colori sezioni  */
 .cristore {
+    background-color: var(--moss-green);
     color: var(--white-smoke);
-    /* /background: linear-gradient(120deg, rgba(6, 2, 53, 0.737), rgba(59, 56, 160, 0.687));  */
-    background-color: var(--white-smoke);
 }
 
 .custom-shadows {
@@ -103,7 +102,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 
