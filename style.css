@@ -1,18 +1,18 @@
 * {
     font-family: 'Oswald', sans-serif;
 }
-/* palette colori */
-:root {--cosmos-red: rgba(217, 28, 72);
---white-smoke: rgba(246, 245, 244, 1);
---drab-dark-brown: rgba(39, 37, 2, 1);
+/* palette colori  */
+:root {--moss-green: rgba(127, 140, 84, 1);
+       --white-smoke: rgba(246, 245, 244, 1);
+       --caf-noir: rgba(73, 47, 9, 1);
 }
 
-/* Navbar color */
+/* / Navbar color / */
 .navbar {
     background-color: black;
 }
 
-/* imagine header background */
+/* / imagine header background / */
 .first-img {
     background-image:linear-gradient(120deg, rgba(12, 1, 1, 0.842), rgba(0, 0, 0, 0.406)), url('./media/sfondo.jpg');
     background-repeat: no-repeat;
@@ -24,10 +24,9 @@
     border-radius: 50%;
 }
 
-/* Cambio Font link navbar */
+/* / Cambio Font link navbar / */
 .font-link:hover {
-    color: var(--cosmos-red) !important; 
-    /* font-size: xx-large !important; */
+    color: var(--moss-green) !important; 
 }
 
 .font-title {
@@ -43,10 +42,71 @@
     letter-spacing: 5px;
     font-weight: bold;
 }
-/* palette colori sezioni */
+/* colori sezioni  */
 .cristore {
+    background-color: var(--moss-green);
     color: var(--white-smoke);
-    background-color: var(--drab-dark-brown);
+}
+
+.custom-shadows {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* Icona cuore cards */
+.fa-heart {
+    cursor: pointer;
+}
+
+.swip {
+    position: relative;
+    height: 100%;
+}
+
+.swip {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* / swipper */ 
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    
+    
+}
+
+.sfondo-recensioni {
+    background-color: var(--caf-noir);
+    height: 350px;
+}
+
+.card-recensione {
+    height: 50px;
+    width: 50px;
+    background-color: var(--moss-green);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -57,7 +117,9 @@
 
 
 
-    
+
+
+
 
 
 
