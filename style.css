@@ -1,18 +1,18 @@
 * {
     font-family: 'Oswald', sans-serif;
 }
-/* palette colori  */
+ /* palette colori   */
 :root {--moss-green: rgba(127, 140, 84, 1);
        --white-smoke: rgba(246, 245, 244, 1);
        --caf-noir: rgba(73, 47, 9, 1);
 }
 
-/* / Navbar color / */
+ /* Navbar color */
 .navbar {
     background-color: black;
 }
 
-/* / imagine header background / */
+ /* imagine header background  */
 .first-img {
     background-image:linear-gradient(120deg, rgba(12, 1, 1, 0.842), rgba(0, 0, 0, 0.406)), url('./media/sfondo.jpg');
     background-repeat: no-repeat;
@@ -24,10 +24,9 @@
     border-radius: 50%;
 }
 
-/* / Cambio Font link navbar / */
+ /* Cambio Font link navbar  */
 .font-link:hover {
-    color: var(--cosmos-red) !important; 
-    /* / font-size: xx-large !important; / */
+    color: var(--moss-green) !important; 
 }
 
 .font-title {
@@ -43,7 +42,7 @@
     letter-spacing: 5px;
     font-weight: bold;
 }
-/* colori sezioni  */
+ /* colori sezioni   */
 .cristore {
     background-color: var(--moss-green);
     color: var(--white-smoke);
@@ -53,7 +52,10 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-
+ /* Icona cuore cards */
+.fa-heart {
+    cursor: pointer;
+}
 
 .swip {
     position: relative;
@@ -69,7 +71,7 @@
     padding: 0;
 }
 
-/* / swipper */ 
+ /* swipper   */
 .swiper {
     width: 100%;
     padding-top: 50px;
@@ -81,14 +83,14 @@
     background-size: cover;
     width: 300px;
     height: 300px;
-    
+
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
-    
-    
+
+
 }
 
 .sfondo-recensioni {
@@ -107,12 +109,50 @@
     justify-content: center;
 }
 
-/* Footer */
-.footer {
-    background-color: var(--drab-dark-brown);
+.container{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto ; 
+}
+.row{
+    display:flex; 
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
 }
 
+.footer{
+    background-color:#24262b ; 
+    padding: 70px 0px ; 
 
+}
+.footer-col{
+    width: 25% ; 
+    padding: 0px 15px;
+    
+}
+.footer-col h4{
+    font-size: 18px ; 
+    color:#ffffff ; 
+    text-transform: capitalize; 
+    margin-bottom: 35px ; 
+    font-weight: 500;
+    position : relative ; 
+
+}
+.footer-col h4::before{
+    content: '';
+    position : absolute ; 
+    left: 0 ; 
+    bottom: -10px; 
+    background-color: #e91e63 ; 
+    height:2px ; 
+    box-sizing: border-box ; 
+    width:50px ; 
+}
+.footer-col ul li :not(:last-child){
+    margin-bottom:10px; 
 
 
 }
@@ -166,12 +206,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
