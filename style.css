@@ -26,7 +26,7 @@
 
 /* / Cambio Font link navbar / */
 .font-link:hover {
-    color: var(--moss-green) !important; 
+    color: var(--cosmos-red) !important; 
     /* / font-size: xx-large !important; / */
 }
 
@@ -43,7 +43,7 @@
     letter-spacing: 5px;
     font-weight: bold;
 }
-/* palette colori sezioni  */
+/* colori sezioni  */
 .cristore {
     background-color: var(--moss-green);
     color: var(--white-smoke);
@@ -81,23 +81,25 @@
     background-size: cover;
     width: 300px;
     height: 300px;
+    
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
     
+    
 }
 
 .sfondo-recensioni {
-    background-color: var(--drab-dark-brown);
-    height: 250px;
+    background-color: var(--caf-noir);
+    height: 350px;
 }
 
 .card-recensione {
-    height: 150px;
-    width: 250px;
-    background-color: var(--brown-smoke);
+    height: 50px;
+    width: 50px;
+    background-color: var(--moss-green);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -105,55 +107,12 @@
     justify-content: center;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-.container{
-    max-width: 1170px;
-    /* background-color: red; */
-    margin: auto ; 
-}
-.row{
-    display:flex; 
-    flex-wrap: wrap;
-}
-ul{
-    list-style: none;
+/* Footer */
+.footer {
+    background-color: var(--drab-dark-brown);
 }
 
-.footer{
-    background-color:#24262b ; 
-    padding: 70px 0px ; 
 
-}
-.footer-col{
-    width: 25% ; 
-    padding: 0px 15px;
-    
-}
-.footer-col h4{
-    font-size: 18px ; 
-    color:#ffffff ; 
-    text-transform: capitalize; 
-    margin-bottom: 35px ; 
-    font-weight: 500;
-    position : relative ; 
-
-}
-.footer-col h4::before{
-    content: '';
-    position : absolute ; 
-    left: 0 ; 
-    bottom: -10px; 
-    background-color: #e91e63 ; 
-    height:2px ; 
-    box-sizing: border-box ; 
-    width:50px ; 
-}
-.footer-col ul li :not(:last-child){
-    margin-bottom:10px; 
 
 
 }
