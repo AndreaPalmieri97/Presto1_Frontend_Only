@@ -12,11 +12,13 @@ let wrapper = document.querySelector('.swiper-wrapper')
 
 recensioni.forEach((element) => {
   let div = document.createElement('div');
-  div.classList.add('swiper-slide', 'card-recensione', 'd-flex', 'justify-content-center', 'align-items-center')
+  div.classList.add('swiper-slide', 'card-recensione', 'd-flex', 'justify-content-center', 'align-items-center', 'colorCard')
   div.innerHTML = `
   <h3 class="my-3">Cliente: ${element.name}</h3>
   <h5 class="my-3">${element.recensione}</h5>
-  <p class="my-3"><em>'${element.giudizio}'</em></p>`
+  <p class="my-3"><em>'${element.giudizio}'</em></p>
+  `
+  
   wrapper.appendChild(div)
 })
 
@@ -49,5 +51,3 @@ var swiper = new Swiper(".swiper", {
 
 
 AOS.init();
-
-
