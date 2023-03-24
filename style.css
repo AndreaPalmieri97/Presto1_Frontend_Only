@@ -26,8 +26,7 @@
 
 /* / Cambio Font link navbar / */
 .font-link:hover {
-    color: var(--cosmos-red) !important; 
-    /* / font-size: xx-large !important; / */
+    color: var(--moss-green) !important; 
 }
 
 .font-title {
@@ -43,7 +42,7 @@
     letter-spacing: 5px;
     font-weight: bold;
 }
-/* palette colori sezioni  */
+/* colori sezioni  */
 .cristore {
     background-color: var(--moss-green);
     color: var(--white-smoke);
@@ -53,6 +52,10 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+/* Icona cuore cards */
+.fa-heart {
+    cursor: pointer;
+}
 
 .swip {
     position: relative;
@@ -80,23 +83,25 @@
     background-size: cover;
     width: 300px;
     height: 300px;
+    
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
     
+    
 }
 
 .sfondo-recensioni {
-    background-color: var(--drab-dark-brown);
-    height: 250px;
+    background-color: var(--caf-noir);
+    height: 350px;
 }
 
 .card-recensione {
-    height: 150px;
-    width: 250px;
-    background-color: var(--brown-smoke);
+    height: 50px;
+    width: 50px;
+    background-color: var(--moss-green);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
