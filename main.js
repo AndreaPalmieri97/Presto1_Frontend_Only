@@ -4,7 +4,7 @@ let recensioni = [
   { name: 'Angelo', recensione: 'Vasta e completa gamma di prodotti', giudizio: 'Buono' },
   { name: 'Daniele', recensione: 'Mi aspettavo di più', giudizio: 'Sufficiente' },
   { name: 'Maria', recensione: 'Tutto perfetto, grazie di cuore', giudizio: 'Eccellente' },
-  { name: 'Paolo', recensione: 'Sito perfetto, ho trovato quello che cercavo', giudizio: 'Ottimo' },
+  { name: 'Paolo', recensione: 'Ho trovato quello che cercavo', giudizio: 'Ottimo' },
 ]
 
 let heart = document.querySelectorAll('.fa-heart')
