@@ -9,7 +9,7 @@
 
  /* Navbar color */
 .navbar {
-    background-color: black;
+    background-color: var(--caf-noir);
 }
 
  /* imagine header background  */
@@ -26,7 +26,7 @@
 
  /* Cambio Font link navbar  */
 .font-link:hover {
-    color: var(--moss-green) !important; 
+    color: #d5f254 !important; 
 }
 
 .font-title {
@@ -44,8 +44,8 @@
 }
  /* colori sezioni   */
 .cristore {
-    background-color: var(--moss-green);
-    color: var(--white-smoke);
+    background-color: var(--caf-noir);
+    color: #d5f254;
 }
 
 .custom-shadows {
@@ -94,25 +94,29 @@
 }
 
 .sfondo-recensioni {
-    background-color: var(--caf-noir);
+    background-color: #d5f254;
     height: 350px;
 }
 
 .card-recensione {
     height: 50px;
     width: 50px;
-    background-color: var(--moss-green);
+    background-color:var(--caf-noir) ;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-.container{
+.colorCard {
+    color: var(--white-smoke);
+}
+/* FOOTER */
+.piedino{
     max-width: 1170px;
     /* background-color: red; */
     margin: auto ; 
+
 }
 .row{
     display:flex; 
@@ -120,10 +124,12 @@
 }
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .footer{
-    background-color:#24262b ; 
+    background-color:var(--caf-noir) ; 
     padding: 70px 0px ; 
 
 }
@@ -146,7 +152,7 @@ ul{
     position : absolute ; 
     left: 0 ; 
     bottom: -10px; 
-    background-color: #e91e63 ; 
+    background-color: #d5f254 ; 
     height:2px ; 
     box-sizing: border-box ; 
     width:50px ; 
@@ -168,7 +174,7 @@ ul{
 }
 
 .footer-col ul li a:hover{
-    color: #ffffff;
+    color: #d5f254;
     padding-left: 10px;
 }
 
@@ -187,7 +193,11 @@ ul{
 
 .footer-col .social-links a:hover{
     color:#24262b ; 
-    background-color: #ffffff;
+    background-color: #d5f254;
+}
+
+.colorCopy{
+color: #d5f254;
 }
 
 /* responsive  */
