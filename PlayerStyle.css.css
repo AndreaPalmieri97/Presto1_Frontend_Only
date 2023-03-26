@@ -1,0 +1,35 @@
+/* Immagine di sfondo */
+.bg-img {
+    background-image: url('./cover/cover-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Sezione cover */
+.img-cover {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    animation: rotateCover 2s infinite linear both;
+}
+
+@keyframes rotateCover {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+/* Responsive cover */
+@media (max-width: 600px) {
+    .img-cover {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+
+
