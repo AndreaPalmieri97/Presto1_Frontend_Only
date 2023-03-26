@@ -2,7 +2,7 @@
     font-family: 'Oswald', sans-serif;
 }
  /* palette colori   */
-:root {--moss-green: rgba(127, 140, 84, 1);
+:root {--moss-yellow:rgb(213, 242, 84);
        --white-smoke: rgba(246, 245, 244, 1);
        --caf-noir: rgba(73, 47, 9, 1);
 }
@@ -215,4 +215,34 @@ color: #d5f254;
         
     }
 
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Sezione shop */
+.card-shop {
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.accordion-button {
+    background-color: var(--caf-noir);
+    color: var(--moss-yellow);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--caf-noir);
+    background-color: var(--moss-yellow);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+#wrapperShop {
+    overflow-y: scroll;
 }

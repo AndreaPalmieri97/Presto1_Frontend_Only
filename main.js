@@ -2,14 +2,6 @@ let heart = document.querySelectorAll('.fa-heart')
 let wrapper = document.querySelector('.swiper-wrapper')
 let wrapper2 = document.querySelector('#wrapper2')
 
-// let cards = [
-//   { img: './media/blue-ge6cd1cac4_640.png', title: 'Queen', descrizione: 'Some quick example text to build on the card title and make up the bulk of the cards content.', prezzo: '89,90 $' },
-//   { img: './media/disc-gc6443a0cc_640.png', title: 'Pink Floyd', descrizione: 'Some quick example text to build on the card title and make up the bulk of the cards content.', prezzo: '59,90 $' },
-//   { img: './media/disk-g111c94b22_640.png', title: 'Beatles', descrizione: 'Some quick example text to build on the card title and make up the bulk of the cards content.', prezzo: '69,90 $' },
-//   { img: './media/phonograph-record-g1a230ebcd_640.jpg', title: 'Michael Jackson', descrizione: 'Some quick example text to build on the card title and make up the bulk of the cards content.', prezzo: '59,90 $' },
-//   { img: './media/record-gb37c0a610_640.png', title: 'Nirvana', descrizione: 'Some quick example text to build on the card title and make up the bulk of the cards content.', prezzo: '79,90 $' },
-//   { img: './media/vinyl-gb4588005b_640.png', title: 'Best of Jazz', descrizione: 'Some quick example text to build on the card title and make up the bulk of the cards content.', prezzo: '39,90 $' },
-// ]
 
 let recensioni = [
   { name: 'Nicola', recensione: 'Ottimo prodotto', giudizio: 'Eccellente' },

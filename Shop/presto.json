@@ -1,0 +1,208 @@
+[
+    {
+      "cantante": "Adele",
+      "genere": "Pop",
+      "prezzo": 12.99
+    },
+    {
+      "cantante": "Beyoncé",
+      "genere": "R&B",
+      "prezzo": 14.99
+    },
+    {
+      "cantante": "Coldplay",
+      "genere": "Rock",
+      "prezzo": 9.99
+    },
+    {
+      "cantante": "Drake",
+      "genere": "Hip-hop",
+      "prezzo": 11.99
+    },
+    {
+      "cantante": "Ed Sheeran",
+      "genere": "Pop",
+      "prezzo": 10.99
+    },
+    {
+      "cantante": "Fleetwood Mac",
+      "genere": "Rock",
+      "prezzo": 8.99
+    },
+    {
+      "cantante": "Guns N' Roses",
+      "genere": "Rock",
+      "prezzo": 7.99
+    },
+    {
+      "cantante": "Hozier",
+      "genere": "Indie",
+      "prezzo": 12.99
+    },
+    {
+      "cantante": "Imagine Dragons",
+      "genere": "Rock",
+      "prezzo": 9.99
+    },
+    {
+      "cantante": "Justin Bieber",
+      "genere": "Pop",
+      "prezzo": 13.99
+    },
+    {
+      "cantante": "Kanye West",
+      "genere": "Hip-hop",
+      "prezzo": 11.99
+    },
+    {
+      "cantante": "Lady Gaga",
+      "genere": "Pop",
+      "prezzo": 10.99
+    },
+    {
+      "cantante": "Madonna",
+      "genere": "Pop",
+      "prezzo": 12.99
+    },
+    {
+      "cantante": "Nirvana",
+      "genere": "Rock",
+      "prezzo": 8.99
+    },
+    {
+      "cantante": "One Direction",
+      "genere": "Pop",
+      "prezzo": 11.99
+    },
+    {
+      "cantante": "Panic! At The Disco",
+      "genere": "Pop punk",
+      "prezzo": 9.99
+    },
+    {
+      "cantante": "Queen",
+      "genere": "Rock",
+      "prezzo": 7.99
+    },
+    {
+      "cantante": "Rihanna",
+      "genere": "R&B",
+      "prezzo": 14.99
+    },
+    {
+      "cantante": "Sam Smith",
+      "genere": "Pop",
+      "prezzo": 12.99
+    },
+    {
+      "cantante": "Taylor Swift",
+      "genere": "Pop",
+      "prezzo": 13.99
+    },
+    {
+      "cantante": "U2",
+      "genere": "Rock",
+      "prezzo": 8.99
+    },
+    {
+        "cantante": "Whitney Houston",
+        "genere": "Pop",
+        "prezzo": 11.99
+      },
+      {
+        "cantante": "X Ambassadors",
+        "genere": "Indie",
+        "prezzo": 9.99
+      },
+      {
+        "cantante": "Years & Years",
+        "genere": "Pop",
+        "prezzo": 10.99
+      },
+      {
+        "cantante": "Zara Larsson",
+        "genere": "Pop",
+        "prezzo": 12.99
+      },
+      {
+        "cantante": "Ariana Grande",
+        "genere": "Pop",
+        "prezzo": 14.99
+      },
+      {
+        "cantante": "BTS",
+        "genere": "K-pop",
+        "prezzo": 13.99
+      },
+      {
+        "cantante": "Charlie Puth",
+        "genere": "Pop",
+        "prezzo": 10.99
+      },
+      {
+        "cantante": "Dua Lipa",
+        "genere": "Pop",
+        "prezzo": 12.99
+      },
+      {
+        "cantante": "Elton John",
+        "genere": "Pop",
+        "prezzo": 8.99
+      },
+      {
+        "cantante": "Foster The People",
+        "genere": "Indie",
+        "prezzo": 9.99
+      },
+      {
+        "cantante": "Gorillaz",
+        "genere": "Alternative",
+        "prezzo": 11.99
+      },
+      {
+        "cantante": "Halsey",
+        "genere": "Pop",
+        "prezzo": 12.99
+      },
+      {
+        "cantante": "Imagine Dragons",
+        "genere": "Alternative",
+        "prezzo": 10.99
+      },
+      {
+        "cantante": "Jonas Brothers",
+        "genere": "Pop",
+        "prezzo": 11.99
+      },
+      {
+        "cantante": "Kendrick Lamar",
+        "genere": "Hip-hop",
+        "prezzo": 12.99
+      },
+      {
+        "cantante": "Lizzo",
+        "genere": "Pop",
+        "prezzo": 10.99
+      },
+      {
+        "cantante": "Maroon 5",
+        "genere": "Pop",
+        "prezzo": 9.99
+      },
+      {
+        "cantante": "Niall Horan",
+        "genere": "Pop",
+        "prezzo": 12.99
+      },
+      {
+        "cantante": "Oasis",
+        "genere": "Rock",
+        "prezzo": 8.99
+      },
+      {
+        "cantante": "Post Malone",
+        "genere": "Hip-hop",
+        "prezzo": 11.99
+      }
+    ]
+    
