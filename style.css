@@ -25,8 +25,11 @@
 }
 
  /* Cambio Font link navbar  */
+.font-link {
+text-decoration: none;
+ }
 .font-link:hover {
-    color: #d5f254 !important; 
+    color: rgb(213, 242, 84) !important; 
 }
 
 .font-title {
@@ -42,10 +45,22 @@
     letter-spacing: 5px;
     font-weight: bold;
 }
+.link-button:hover {
+color: black;
+}
+/* colori articoli */
+.article-button {
+    background-color: rgba(73, 47, 9, 1);
+    color: rgba(246, 245, 244, 1);
+}
+.article-button:hover {
+    background-color: rgb(213, 242, 84);
+    color: black;
+}
  /* colori sezioni   */
 .cristore {
     background-color: var(--caf-noir);
-    color: #d5f254;
+    color: rgb(213, 242, 84);
 }
 
 .custom-shadows {
@@ -94,14 +109,14 @@
 }
 
 .sfondo-recensioni {
-    background-color: #d5f254;
+    background-color: rgb(213, 242, 84);
     height: 350px;
 }
 
 .card-recensione {
     height: 50px;
     width: 50px;
-    background-color:var(--caf-noir) ;
+    background-color: rgba(73, 47, 9, 1) ;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -152,7 +167,7 @@ ul{
     position : absolute ; 
     left: 0 ; 
     bottom: -10px; 
-    background-color: #d5f254 ; 
+    background-color: rgb(213, 242, 84) ; 
     height:2px ; 
     box-sizing: border-box ; 
     width:50px ; 
@@ -174,7 +189,7 @@ ul{
 }
 
 .footer-col ul li a:hover{
-    color: #d5f254;
+    color: rgb(213, 242, 84);
     padding-left: 10px;
 }
 
@@ -193,11 +208,11 @@ ul{
 
 .footer-col .social-links a:hover{
     color:#24262b ; 
-    background-color: #d5f254;
+    background-color: rgb(213, 242, 84);
 }
 
 .colorCopy{
-color: #d5f254;
+color: rgb(213, 242, 84);
 }
 
 /* responsive  */
@@ -245,4 +260,40 @@ color: #d5f254;
 
 #wrapperShop {
     overflow-y: scroll;
+}
+
+/*  Sezione About us */
+
+.cardUs{
+    width: 350px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.8s;
+}
+
+.cardUsWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner-face{
+    width: 350px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    transition: 0.8s;
+}
+
+.inner-retro{
+    
+}
+.cardUs:hover{
+    transform: rotateY(180deg);
 }
