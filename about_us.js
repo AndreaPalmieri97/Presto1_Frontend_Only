@@ -11,9 +11,18 @@ aboutus.forEach((element) => {
 let div = document.createElement('div')
 div.classList.add('cardUs')
 div.innerHTML = `
+<div class="inner">
+<div class="inner-face">
 <img class="rounded w-75" src="${element.img}" alt="">
+</div>
+<div class="inner-retro">
 <h3>${element.nome}</h3>
-<h4>${element.descrizione}</h4>`
+<h4>${element.descrizione}</h4>
+</div> 
+</div>`
+
+
+
 
 cardUsWrapper.appendChild(div)
 });
