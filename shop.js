@@ -65,7 +65,7 @@ fetch('./presto.json').then((Response) => Response.json()).then((data) => {
         }
     }
 
-    filterGeneri();
+    filterGeneri('all');
 
     radios.forEach((button) => {
         button.addEventListener('click', () => {

@@ -34,6 +34,14 @@ recensioni.forEach((element) => {
 
 
 var swiper = new Swiper(".swiper", {
+  breakpoints: {
+    300: {
+  slidesPerView: 1
+    },
+    800: {
+      slidesPerView: 3
+    }
+  },
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
