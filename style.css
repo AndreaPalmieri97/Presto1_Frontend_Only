@@ -20,8 +20,9 @@
 }
 
 .img-logo {
-    height: 45px;
-    border-radius: 50%;
+    height: 70px;
+    border-radius: 10px;
+    width: 70px;
 }
 
  /* Cambio Font link navbar  */
@@ -45,9 +46,28 @@ text-decoration: none;
     letter-spacing: 5px;
     font-weight: bold;
 }
+
+.a-button {
+    text-decoration: none;
+    color: white;
+}
+
+.link-button {
+    border: 2px solid white;
+}
+
+.link-button:hover {
+    border: 2px solid white;
+    color: black;
+}
+
+/* .a-button:hover {
+    color: black;
+}
+
 .link-button:hover {
 color: black;
-}
+} */
 /* colori articoli */
 .article-button {
     background-color: rgba(73, 47, 9, 1);
@@ -109,14 +129,14 @@ color: black;
 }
 
 .sfondo-recensioni {
-    background-color: rgb(213, 242, 84);
+    background-color: rgb(241, 241, 240);
     height: 350px;
 }
 
 .card-recensione {
     height: 50px;
     width: 50px;
-    background-color: rgba(73, 47, 9, 1) ;
+    background-color: white ;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -124,7 +144,8 @@ color: black;
     justify-content: center;
 }
 .colorCard {
-    color: var(--white-smoke);
+    color: black;
+    box-shadow: 10px 10px 15px rgb(213, 242, 84);
 }
 /* FOOTER */
 .piedino{
